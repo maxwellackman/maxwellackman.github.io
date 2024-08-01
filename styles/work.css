@@ -1,0 +1,45 @@
+.project-grid {
+    padding-top: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 32px;
+    row-gap: 60px;
+    margin-bottom: 40px;
+}
+
+.project-row {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.thumbnail {
+    width: 100%;
+    display: block;
+}
+
+.project-info-grid {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-title {
+    color: blue;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.project-skills {
+    font-size: 16px;
+}
+
+.project-title,
+.project-skills {
+    line-height: 20px;
+}
+
+.thumbnail:hover,
+.project-title:hover {
+    cursor: pointer;
+}

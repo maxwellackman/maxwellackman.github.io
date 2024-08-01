@@ -1,0 +1,50 @@
+.connect-container {
+    display: flex;
+    position: fixed;
+    margin: 48px 0 0 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect-pane {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect-with-me-title {
+    color: white;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.connect-blue {
+    color: blue;
+}
+
+.connect-buttons {
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    color: blue;
+    padding: 8px 20px;
+    margin: 6px 0px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.connect-buttons:hover {
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}

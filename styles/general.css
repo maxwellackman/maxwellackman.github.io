@@ -1,0 +1,42 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: white;
+}
+
+body {
+    font-family: Arial;
+    background-color: rgb(20, 20, 20);
+    margin: 0 0 0 0;
+}
+
+.landing-page-container {
+    display: flex;
+    position: fixed;
+    padding: 0;
+    margin: 48px 0 0 0;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.headshot {
+    display: block;
+    height: 500px;
+    border-radius: 250px;
+    outline: 10px solid blue;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.name {
+    color: blue;
+}
+
+.description {
+    font-size: 28px;
+}
