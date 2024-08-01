@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(15, 15, 15);
+    background-color: rgba(0, 0, 0, 0);
     position: fixed;
     height: 48px;
     width: 100%;
@@ -8,11 +8,12 @@
     justify-content: center;
     align-items: center;
     gap: 30px;
+    border-bottom: solid 4px rgb(0, 8, 232);
     z-index: 100;
 }
 
 .header-button {
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 24px;
     text-decoration: none;
@@ -21,10 +22,9 @@
 
 .header-button:hover {
     cursor: pointer;
-    color: blue;
-    font-size: 32px;
+    color: rgb(0, 8, 232);
 }
 
 .header-active-button {
-    color: blue;
+    color: rgb(0, 8, 232);
 }
